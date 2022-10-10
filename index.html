@@ -6,10 +6,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-        <title>Rock Paper Scissors Game</title>
+        <title>Rock Papel Scissors Game</title>
 
         <link href="./assets/css/normalize.css" rel="stylesheet" />
         <link href="./assets/css/reset.css" rel="stylesheet" />
+        <link href="./js/rps.js" rel="stylesheet"/>
+
         <!--Insert css tags here-->
+
     </head>
+    <body>
+        <header class="header">
+            <img class="logo" alt="Rock Paper Scissors" src="./assets/images/rps_images/logo.svg">
+        </header>
+            <h2 id="demo1">Let's play!</h2>
+
+            <!-- Container -->
+        <div class="container">
+        
+            <!--Primeira Sessão-->
+            <div class="section">
+                <div class="info">
+                    <h3>Player:</h3><span id="playerScore">0</span>
+                </div>
+                <div class="show__player">
+                    <i class="rock__img"></i> <!--inserir imagem hand-rock-->
+                </div>
+            </div>
+            <!--Segunda sessao-->
+            <div class="section">
+                <div class="info">
+                    <h3>Computer:</h3><span id="computerScore">0</span>
+                </div>
+                <div class="show__computer">
+                    <i class="scissors_img"></i><!--inserir imagem hand-scissors-->
+                </div>
+            </div>
+        </div>
+        <h2 id="demo2">Choose one option!</h2>
+        <!-- nesta sessão div contém os botões-->
+        <div class="selection">
+            <button type="button" id="rock">
+                <img src="./assets/images/rps_images/icon-rock.svg">
+            </button>
+            <button type="button" id="paper">
+                <img src="./assets/images/rps_images/icon-paper.svg">
+            </button>
+            <button type="button" id="scissors">
+                <img src="./assets/images/rps_images/icon-scissors.svg">
+            </button>
+            <!--<button class="icon-rock" id="rock" <img src="./assets/images/rps_images/icon-rock.svg" /></button>
+            <button class="icon-paper" id="paper" <img src="./assets/images/rps_images/icon-paper.svg" /></button>
+            <button class="icon-scissors" id="scissors" <img src="./assets/images/rps_images/icon-scissors.svg" /></button>-->
+        </div>                
+    </body>
 </html>    
