@@ -1,0 +1,147 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 100%;
+  background-color:hsl(237, 49%, 15%);
+  background-image: radial-gradient(hsl(214, 43%, 35%), hsl(237, 49%, 15%));
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 10px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+}
+
+body{
+    /*align-items: center;*/
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    padding: 4px 20px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    color: hsl(56, 90%, 70%);
+    cursor: pointer;
+    background: radial-gradient(hsl(214, 43%, 35%), hsl(237, 49%, 15%));
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 #4c6886;
+    font-weight: bold;     
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 15px 0;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.container{
+    display: flex;
+}
+
+.container .section{
+    width: 350px;
+    margin: 20px 50px;
+}
+
+.section .info{
+    background : radial-gradient(hsl(214, 43%, 35%), hsl(237, 49%, 15%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 #4c6886;  
+
+}
+
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    /*background : radial-gradient(hsl(214, 43%, 35%), hsl(237, 49%, 15%));
+    box-shadow: 5px 5px 0 #283747;
+    border-radius: 0 0 5px 0;*/
+        
+}
+
+.show i{
+    font-size: 100px;
+    color: #EDBB99;
+
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+}
+
+:root{
+    --primary-color: hsl(231, 91%, 66%);
+    --secondary-color: 0 6px 0 0 hsl(231, 94%, 42%), inset 0 6px 3px 0 hsl(240, 1%, 63%);
+    --primary-color: hsl(350, 68%, 56%);
+    --secondary-color: 0 6px 0 0 hsl(350, 94%, 32%), inset 0 6px 3px 0 hsl(240, 1%, 63%);;
+    --primary-color: hsl(40, 84%, 53%);
+    --secondary-color: 0 6px 0 0 hsl(40, 94%, 40%), inset 0 6px 3px 0 hsl(240, 1%, 63%);
+}
+
+.fas{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: 1rem solid #808B96;
+    outline: none;
+    cursor: pointer;
+    background : none;
+    font-size: 33px;
+    color: #EDBB99;
+}
+
+.fa-hand-rock{
+    border-color: hsl(350, 68%, 56%);
+    box-shadow: 0 6px 0 0 hsl(350, 94%, 32%), inset 0 6px 3px 0 hsl(240, 1%, 63%);
+}
+
+.fa-hand-paper{
+    border-color: hsl(231, 91%, 66%);
+    box-shadow: 0 6px 0 0 hsl(231, 94%, 42%), inset 0 6px 3px 0 hsl(240, 1%, 63%);
+}
+
+.fa-hand-scissors{
+    border-color: hsl(40, 84%, 53%);
+    box-shadow: 0 6px 0 0 hsl(40, 94%, 40%), inset 0 6px 3px 0 hsl(240, 1%, 63%);
+}
