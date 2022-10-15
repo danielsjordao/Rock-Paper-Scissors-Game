@@ -1,73 +1,48 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-        <title>Rock Papel Scissors Game</title>
-
-        <link href="./assets/css/normalize.css" rel="stylesheet" />
-        <link href="./assets/css/reset.css" rel="stylesheet" />
-        <link href="./js/rps.js" rel="stylesheet"/>
-
-        <!--Insert css tags here-->
-        <link href="./assets/css/logo.css"rel="stylesheet"/>
-        <link href="./assets/css/banner/banner.css"rel="stylesheet"/>
-        <link href="./assets/css/banner/banner-image.css"rel="stylesheet"/>       
-
-    </head>
-    <body>
-        <header class="header">
-            <img class="logo" alt="Rock Paper Scissors" src="./assets/images/rps_images/logo.svg">
-        </header>
-        <section class="banner">
-            <div class="banner__image"></div>            
-        </section>
-            <h2 id="demo1">Let's play!</h2>
-
-            <!-- Container -->
-        <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+    <title>Rock Paper Scissors Game</title>
+    <script src="javascript.js" defer></script>
+    <link href="./assets/css/style.css" rel="stylesheet" />
         
-            <!--Primeira Sessão-->
-            <div class="section">
-                <div class="info">
-                    <h3>Player:</h3><span id="playerScore">0</span>
-                </div>
-                <div class="show__player">
-                    <i class="rock__img"></i> 
-                    <!--<img src="./assets/images/rps_images/icon-rock.svg">-->
-                    <!--inserir imagem hand-rock-->
-                </div>
+</head>
+<body>
+    <header class="logo">
+        <img class="logo__img" alt="Rock Paper Scissors Game" src="assets/img/logo.svg">
+    </header>
+    
+    <button onclick="window.location.reload()">Restart</button>
+  
+    <h2 id="start"></h2>
+    <div class="container">
+        <div class="section">
+            <div class="info">
+                <h3>Player Score:</h3><span id="userScore">0</span>
             </div>
-            <!--Segunda sessao-->
-            <div class="section">
-                <div class="info">
-                    <h3>Computer:</h3><span id="computerScore">0</span>
-                </div>
-                <div class="show__computer">
-                    <i class="scissors_img"></i>
-                    <!--<img src="./assets/images/rps_images/icon-scissors.svg">-->
-                    <!--inserir imagem hand-scissors-->
-                </div>
+            <div class="show">
+                <i class="start"></i>
             </div>
         </div>
-        <h2 id="demo2">Choose one!</h2>
-        <!-- nesta sessão div contém os botões-->
-        <div class="selection">
-            <button type="button" id="rock">
-                <img src="./assets/images/rps_images/icon-rock.svg">
-            </button>
-            <button type="button" id="paper">
-                <img src="./assets/images/rps_images/icon-paper.svg">
-            </button>
-            <button type="button" id="scissors">
-                <img src="./assets/images/rps_images/icon-scissors.svg">
-            </button>
-            <!--<button class="icon-rock" id="rock" <img src="./assets/images/rps_images/icon-rock.svg" /></button>
-            <button class="icon-paper" id="paper" <img src="./assets/images/rps_images/icon-paper.svg" /></button>
-            <button class="icon-scissors" id="scissors" <img src="./assets/images/rps_images/icon-scissors.svg" /></button>-->
-        </div>                
-    </body>
-</html>    
+
+        <div class="section">
+            <div class="info">
+                <h3>Computer Score:</h3><span id="computerScore">0</span>
+            </div>
+            <div class="show computer">
+                <i class="start"></i>
+            </div>
+        </div>
+    </div>
+    <h2 id="gameStart">Hey Player! Choose one to Start !</h2>
+
+    <div class="selection">
+        <button class="fas fa-hand-rock" id="rock"></button>
+        <button class="fas fa-hand-paper" id="paper"></button>
+        <button class="fas fa-hand-scissors" id="scissors"></button>
+    </div>
+</body>
+</html>
