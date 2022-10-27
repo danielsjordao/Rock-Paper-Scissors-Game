@@ -1,4 +1,7 @@
+#Link do Deploy: https://rps-b16dnn73w-dsjordao.vercel.app/
+
 # Rock-Paper-Scissors-Game
+ 
 Pedra, papel e tesoura é um excelente e empolgante jogo para descontrair e um desafio para desenvolver. Esse projeto desenvolverá as minhas habilidades em JavaScript, além de utilizar HTML e CSS.
 1. Tela inicial do jogo. O "player"(jogador) terá a oportunidade de escolher uma das opções "Rock, Paper, Scissors" e iniciar o jogo.
 ![Tela_inicial](https://user-images.githubusercontent.com/101356855/196046987-5995c593-b8ff-4b02-a77c-b41c46820085.jpg)
