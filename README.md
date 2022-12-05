@@ -1,4 +1,4 @@
-# Link do Deploy 
+# Link do Deploy RPS Game 
 https://rps-b16dnn73w-dsjordao.vercel.app/
 
 # Rock-Paper-Scissors-Game
